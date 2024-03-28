@@ -2,20 +2,18 @@
 <html lang="en">
   <head>
     <title>meow</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
     <link href="css/lightbox.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/4731f5d3bc.js"></script>
   </head>
   <body id="home">
     <!-- PRELOADER -->
-
-  <div class="preloader">
-    <img src="assets/loader.gif" alt="preloader">
-  </div>
+    <div class="preloader">
+      <img src="assets/loader.gif" alt="preloader" />
+    </div>
 
     <!-- POPUPS -->
-
     <div class="popUp" id="loginPopUp">
       <div class="popUp-content">
         <div class="popUp-header">
@@ -24,12 +22,32 @@
         </div>
         <div class="popUp-body">
           <form action="index.html" class="popUpForm" method="post">
-            <input type="text" class="input" name="username" placeholder="Username" title="Enter your username" required>
-            <input type="password" class="input" name="password" placeholder="Password" pattern=".{6,}" title="Password must be at least 6 characters long" required>
-            <input type="submit" class="submit" name="" value="Login">
+            <input
+              type="text"
+              class="input"
+              name="username"
+              placeholder="Username"
+              title="Enter your username"
+              required
+            />
+            <input
+              type="password"
+              class="input"
+              name="password"
+              placeholder="Password"
+              pattern=".{6,}"
+              title="Password must be at least 6 characters long"
+              required
+            />
+            <input type="submit" class="submit" name="" value="Login" />
           </form>
           <div class="registerDiv">
-            <p>Don't have an account? <button class="register popUpBtn" data-popup="registerPopUp">Register</button></p>
+            <p>
+              Don't have an account?
+              <button class="register popUpBtn" data-popup="registerPopUp">
+                Register
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -43,34 +61,85 @@
         </div>
         <div class="popUp-body">
           <form action="index.html" class="popUpForm" method="post">
-            <input type="email" class="input" name="email" placeholder="Email" title="Enter your email address" required>
-            <input type="text" class="input" name="username" placeholder="Username" title="Enter your username" required>
-            <input type="password" class="input" name="password" placeholder="Password" pattern=".{6,}" title="Password must be at least 6 characters long" required>
+            <input
+              type="email"
+              class="input"
+              name="email"
+              placeholder="Email"
+              title="Enter your email address"
+              required
+            />
+            <input
+              type="text"
+              class="input"
+              name="username"
+              placeholder="Username"
+              title="Enter your username"
+              required
+            />
+            <input
+              type="password"
+              class="input"
+              name="password"
+              placeholder="Password"
+              pattern=".{6,}"
+              title="Password must be at least 6 characters long"
+              required
+            />
             <p>The password must be at least 6 characters long.</p>
-            <input type="submit" class="submit" name="" value="Register">
+            <input type="submit" class="submit" name="" value="Register" />
           </form>
           <div class="loginDiv">
-            <p>Already have an account? <button class="login popUpBtn" data-popup="loginPopUp">Login</button></p>
+            <p>
+              Already have an account?
+              <button class="login popUpBtn" data-popup="loginPopUp">
+                Login
+              </button>
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- LEFT MENU -->
-
     <div class="mainWrapper">
-
+      <!-- LEFT MENU -->
       <div class="menu">
-        <button class="menuButton" type="button" name=""><i class="fas fa-bars"></i></button>
+        <button class="menuButton" type="button" name="">
+          <i class="fas fa-bars"></i>
+        </button>
         <nav>
           <li><p class="title">Menu</p></li>
-          <li><a class="menuItem" href="#home"><i class="fas fa-home"></i>Home</a></li>
-          <li><a class="menuItem" href="#about"><i class="fas fa-info-circle"></i>About</a></li>
-          <li><a class="menuItem" href="#cats"><i class="fas fa-cat"></i>Cute cats</a></li>
-          <li><a class="menuItem" href="#facts"><i class="fas fa-bookmark"></i></i>Cat facts</a></li>
-          <li><a class="menuItem" href="#cool"><i class="fas fa-wind"></i>???</a></li>
-          <li><a class="menuItem" href="#contact"><i class="fas fa-phone"></i>Contacts</a></li>
-          <li><a class="menuItem popUpBtn" data-popup="loginPopUp"><i class="fas fa-sign-in-alt"></i>Login / register</a></li>
+          <li>
+            <a class="menuItem" href="#home"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a class="menuItem" href="#about"
+              ><i class="fas fa-info-circle"></i>About</a
+            >
+          </li>
+          <li>
+            <a class="menuItem" href="#cats"
+              ><i class="fas fa-cat"></i>Cute cats</a
+            >
+          </li>
+          <li>
+            <a class="menuItem" href="#facts"
+              ><i class="fas fa-bookmark"></i>Cat facts</a
+            >
+          </li>
+          <li>
+            <a class="menuItem" href="#cool"><i class="fas fa-wind"></i>???</a>
+          </li>
+          <li>
+            <a class="menuItem" href="#contact"
+              ><i class="fas fa-phone"></i>Contacts</a
+            >
+          </li>
+          <li>
+            <a class="menuItem popUpBtn" data-popup="loginPopUp"
+              ><i class="fas fa-sign-in-alt"></i>Login / register</a
+            >
+          </li>
         </nav>
       </div>
 
@@ -78,15 +147,24 @@
         <div class="blurredBg"></div>
 
         <!-- HEADER, NAV -->
-
         <header>
-          <a href="https://www.youtube.com/watch?v=g1Og5Tg_Jyo&t" class="title">Meow meow</a>
-          <p class="subtitle">whh;a t if w e kk;ijsss ed nghh,; and h hheld hwands</p>
+          <a href="https://www.youtube.com/watch?v=g1Og5Tg_Jyo&t" class="title"
+            >Meow meow</a
+          >
+          <p class="subtitle">
+            whh;a t if w e kk;ijsss ed nghh,; and h hheld hwands
+          </p>
           <div class="banner">
-            <img class="bannerImg pulse" src="assets/pinkcat.png" alt="pink cat">
+            <img
+              class="bannerImg pulse"
+              src="assets/pinkcat.png"
+              alt="pink cat"
+            />
           </div>
           <div class="topRight">
-            <button class="login popUpBtn" data-popup="loginPopUp">Login</button>
+            <button class="login popUpBtn" data-popup="loginPopUp">
+              Login
+            </button>
             <a class="account" href="#">My account</a>
           </div>
         </header>
@@ -104,167 +182,287 @@
         </div>
 
         <!-- ABOUT -->
-
         <section id="about">
           <p class="title">About</p>
           <div class="content">
             <p>This tiny website was made by Sofiia just to поиграться :)</p>
             <p>And now you can listen to this masterpiece..... enjoy</p>
 
-            <bgsound src="meow.mp3" loop="infinite" volume="-700"> <!-- for IE -->
-            <audio controls loop src="assets/meow.mp3">
-              What an awesome song... But it seems like your browser doesn't support a tag "audio".</audio>
-              <!-- <blockquote class="twitter-tweet"><p lang="uk" dir="ltr">вибачаюся ☝️</p>&mdash; 𝓈ℴ𝒻𝓊𝓁𝓀𝒶 (@sofulka) <a href="https://twitter.com/sofulka/status/1192062768276525056?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+            <!-- for IE -->
+            <bgsound src="meow.mp3" loop="infinite" volume="-700"></bgsound>
 
-              <blockquote class="twitter-tweet"><p lang="uk" dir="ltr">вибачаюся ☝️</p>&mdash; софулька (@sofulka) <a href="https://twitter.com/sofulka/status/1408379299284008964?ref_src=twsrc%5Etfw">June 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <audio controls loop src="assets/meow.mp3">
+              What an awesome song... But it seems like your browser doesn't
+              support a tag "audio".
+            </audio>
+            <!-- <blockquote class="twitter-tweet"><p lang="uk" dir="ltr">вибачаюся ☝️</p>&mdash; 𝓈ℴ𝒻𝓊𝓁𝓀𝒶 (@sofulka) <a href="https://twitter.com/sofulka/status/1192062768276525056?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+            <blockquote class="twitter-tweet">
+              <p lang="uk" dir="ltr">вибачаюся ☝️</p>
+              &mdash; софулька (@sofulka)
+              <a
+                href="https://twitter.com/sofulka/status/1408379299284008964?ref_src=twsrc%5Etfw"
+                >June 25, 2021</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
           </div>
         </section>
 
-          <!-- CUTE CATS -->
-
+        <!-- CUTE CATS -->
         <section id="cats">
           <p class="title">cute fat cats</p>
           <div class="content">
-            <a href="assets/cat1.jpg" data-lightbox="fat cat" data-title="a cute cat"><img src="assets/cat1.jpg"></a>
-            <a href="assets/cat2.jpg" data-lightbox="fat cat" data-title="a fat cat"><img src="assets/cat2.jpg"></a>
-            <a href="assets/cat3.jpg" data-lightbox="fat cat" data-title="another fat cat"><img src="assets/cat3.jpg"></a>
-            <a href="assets/cat4.jpg" data-lightbox="fat cat" data-title="and another one"><img src="assets/cat4.jpg"></a>
-            <div id="typeWriter">Do you like <span class="typeWriterText" data-wait="2000" data-words='["cute cats?", "kitties?", "fat cats?"]'></span></div>
+            <a
+              href="assets/cat1.jpg"
+              data-lightbox="fat cat"
+              data-title="a cute cat"
+              ><img src="assets/cat1.jpg"
+            /></a>
+            <a
+              href="assets/cat2.jpg"
+              data-lightbox="fat cat"
+              data-title="a fat cat"
+              ><img src="assets/cat2.jpg"
+            /></a>
+            <a
+              href="assets/cat3.jpg"
+              data-lightbox="fat cat"
+              data-title="another fat cat"
+              ><img src="assets/cat3.jpg"
+            /></a>
+            <a
+              href="assets/cat4.jpg"
+              data-lightbox="fat cat"
+              data-title="and another one"
+              ><img src="assets/cat4.jpg"
+            /></a>
+            <div id="typeWriter">
+              Do you like
+              <span
+                class="typeWriterText"
+                data-wait="2000"
+                data-words='["cute cats?", "kitties?", "fat cats?"]'
+              ></span>
+            </div>
           </div>
         </section>
 
-          <!-- FACTS, STORIES -->
-
+        <!-- FACTS, STORIES -->
         <section id="facts">
           <p class="title">Cats!!!</p>
           <div class="content">
             <div class="tabs">
               <div class="tabsNav">
-                <div class="tabsNavItem isActive" data-tab-name="tabFacts">Cat facts</div>
-                <div class="tabsNavItem" data-tab-name="tabJokes">Cat stories</div>
+                <div class="tabsNavItem isActive" data-tab-name="tabFacts">
+                  Cat facts
+                </div>
+                <div class="tabsNavItem" data-tab-name="tabJokes">
+                  Cat stories
+                </div>
               </div>
 
               <div class="tab tabFacts isActive">
                 <dl>
                   <dt class="title">Sweetness</dt>
-                  <dd>Unlike humans, cats cannot detect sweetness &mdash; which likely
-                    explains why they are not drawn to it at all</dd>
+                  <dd>
+                    Unlike humans, cats cannot detect sweetness &mdash; which
+                    likely explains why they are not drawn to it at all
+                  </dd>
 
                   <dt class="title">Healing</dt>
-                  <dd>A cat has the power to sometimes heal themselves by purring.
+                  <dd>
+                    A cat has the power to sometimes heal themselves by purring.
                     A domestic cat's purr has a frequency of between 25 and 150
                     Hertz, which happens to be the frequency at which muscles
-                    and bones best grow and repair themselves</dd>
+                    and bones best grow and repair themselves
+                  </dd>
 
                   <dt class="title">Meow</dt>
-                  <dd> Cats only use their meows to talk to humans, not each
-                    other. The only time they meow to communicate with other
-                    felines is when they are kittens to signal to their mother</dd>
+                  <dd>
+                    Cats only use their meows to talk to humans, not each other.
+                    The only time they meow to communicate with other felines is
+                    when they are kittens to signal to their mother
+                  </dd>
 
                   <dt class="title">Milk</dt>
-                  <dd>Despite imagery of cats happily drinking milk from saucers,
+                  <dd>
+                    Despite imagery of cats happily drinking milk from saucers,
                     studies indicate that cats are actually lactose intolerant
-                    and should avoid it entirely</dd>
+                    and should avoid it entirely
+                  </dd>
 
                   <dt class="title">Jump</dt>
-                  <dd>The average cat can jump 2.5 meters in a single bound &mdash; nearly six times its body length</dd>
+                  <dd>
+                    The average cat can jump 2.5 meters in a single bound
+                    &mdash; nearly six times its body length
+                  </dd>
 
                   <dt class="title">Lefties</dt>
-                  <dd>Unlike humans, cats are usually lefties. Studies indicate
-                    that their left paw is typically their dominant paw</dd>
+                  <dd>
+                    Unlike humans, cats are usually lefties. Studies indicate
+                    that their left paw is typically their dominant paw
+                  </dd>
                 </dl>
               </div>
 
               <div class="tab tabJokes">
                 <dl>
                   <dt class="title">Vengeful Cat</dt>
-                  <dd>“One day, my cat got tired of my ex-boyfriend flinging her
-                    off of his beloved quilt &mdash; he was obsessed with this quilt
-                    and wouldn't let anybody use it &mdash; that she decided to exact
-                    her revenge. She walked into the room with poop all over her
-                    paws, aimed straight for the quilt, and rubbed her paws on
-                    it 'til they were sparkling clean. When she was done, she
-                    looked at my ex, flicked her tail, and darted out of the
-                    room.” &mdash; Tanya W.</dd>
+                  <dd>
+                    “One day, my cat got tired of my ex-boyfriend flinging her
+                    off of his beloved quilt &mdash; he was obsessed with this
+                    quilt and wouldn't let anybody use it &mdash; that she
+                    decided to exact her revenge. She walked into the room with
+                    poop all over her paws, aimed straight for the quilt, and
+                    rubbed her paws on it 'til they were sparkling clean. When
+                    she was done, she looked at my ex, flicked her tail, and
+                    darted out of the room.” &mdash; Tanya W.
+                  </dd>
                   <dt class="title">The Cat That Didn't Like the Pet Fish</dt>
-                  <dd>“I don't know how long my cat had been doing it but one day,
+                  <dd>
+                    “I don't know how long my cat had been doing it but one day,
                     I discovered that she had converted into her own personal
-                    litter box this box that contained aquarium supplies such
-                    as ornaments and fish food. It turns out, up until that
-                    day, I had been feeding my fish kitty poop!” &mdash; Suzanne C.</dd>
+                    litter box this box that contained aquarium supplies such as
+                    ornaments and fish food. It turns out, up until that day, I
+                    had been feeding my fish kitty poop!” &mdash; Suzanne C.
+                  </dd>
                   <dt class="title">This Cat Is Great at Catching Mice</dt>
-                  <dd>“My cat Mischief did a great job of catching mice around
-                    the house. She was quite proud of it, too and would show
-                    her daily catch to us &mdash; alive and wriggling at 3:30 in the
+                  <dd>
+                    “My cat Mischief did a great job of catching mice around the
+                    house. She was quite proud of it, too and would show her
+                    daily catch to us &mdash; alive and wriggling at 3:30 in the
                     morning. After showing, she would let it go. On our bed,
-                    yes.” &mdash; Skye B</dd>
+                    yes.” &mdash; Skye B
+                  </dd>
                 </dl>
               </div>
-
-            </div> <!-- tabs -->
-          </div> <!-- content -->
+            </div>
+          </div>
         </section>
 
-          <!-- ??? -->
-
+        <!-- ??? -->
         <section id="cool">
           <p class="title">how interesting...</p>
           <div class="content">
-            <img class="pulse" src="https://media1.tenor.com/images/bf2a9ae85d6f60eb3283dcbf1c1473b3/tenor.gif?itemid=9758376" alt="cat">
+            <img
+              class="pulse"
+              src="https://media1.tenor.com/images/bf2a9ae85d6f60eb3283dcbf1c1473b3/tenor.gif?itemid=9758376"
+              alt="cat"
+            />
             <details>
               <summary>details</summary>
-              <p>we will add some cool stuff to this section as more content become available</p>
+              <p>
+                we will add some cool stuff to this section as more content
+                become available
+              </p>
             </details>
           </div>
         </section>
 
-          <!-- CONTACTS -->
-
+        <!-- CONTACTS -->
         <section id="contact">
           <p class="title">Contact me</p>
           <div class="box">
             <div class="content">
-              <a class="contact" href="https://t.me/stplva" target="_blank" rel="noreferrer"><i class="fab fa-telegram-plane"></i>Telegram</a>
-              <a class="contact" href="https://twitter.com/sofulka" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i>Twitter</a>
-              <a class="contact" href="https://www.instagram.com/stplva/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i>Instagram</a>
-              <a class="contact" href="https://discord.gg/VRGaW2c" target="_blank" rel="noreferrer"><i class="fab fa-discord"></i>Discord</a>
-              <a class="contact" href="https://www.reddit.com/user/ani777me" target="_blank" rel="noreferrer"><i class="fab fa-reddit-alien"></i>Reddit</a>
-              <a class="contact" href="https://www.facebook.com/profile.php?id=100008233353896" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i>Facebook</a>
-              <p class="email">...or <a href="mailto:sofiia.teplova@gmail.com">email</a> me</p>
+              <a
+                class="contact"
+                href="https://t.me/stplva"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-telegram-plane"></i>Telegram</a
+              >
+              <a
+                class="contact"
+                href="https://twitter.com/sofulka"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-twitter"></i>Twitter</a
+              >
+              <a
+                class="contact"
+                href="https://www.instagram.com/stplva/"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-instagram"></i>Instagram</a
+              >
+              <a
+                class="contact"
+                href="https://discord.gg/VRGaW2c"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-discord"></i>Discord</a
+              >
+              <a
+                class="contact"
+                href="https://www.reddit.com/user/ani777me"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-reddit-alien"></i>Reddit</a
+              >
+              <a
+                class="contact"
+                href="https://www.facebook.com/profile.php?id=100008233353896"
+                target="_blank"
+                rel="noreferrer"
+                ><i class="fab fa-facebook"></i>Facebook</a
+              >
+              <p class="email">
+                ...or <a href="mailto:sofiia.teplova@gmail.com">email</a> me
+              </p>
             </div>
             <div class="content map">
               <p class="title mapTitle">My location</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.0906158568437!2d30.5186787!3d50.4207833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf180e6c43e9%3A0x3a9ea5534d4bd9a3!2sPalats%20Ukraina!5e0!3m2!1sen!2sua!4v1566985503038!5m2!1sen!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.0906158568437!2d30.5186787!3d50.4207833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf180e6c43e9%3A0x3a9ea5534d4bd9a3!2sPalats%20Ukraina!5e0!3m2!1sen!2sua!4v1566985503038!5m2!1sen!2sua"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+              ></iframe>
             </div>
           </div>
         </section>
 
-          <!-- FOOTER -->
-
+        <!-- FOOTER -->
         <footer>
           <div class="newsletter">
             <p>Subscribe to a newsletter to stay updated</p>
             <div id="completeForm">
               <span id="error"></span>
               <form id="subscribeForm" action="#" method="post">
-                <input type="email" class="input" name="email" id="email" placeholder="Your email" title="Enter your email adress" required autocapitalize="off">
-                <input type="submit" id="submitBtn" value="Subscribe">
+                <input
+                  type="email"
+                  class="input"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+                  title="Enter your email adress"
+                  required
+                  autocapitalize="off"
+                />
+                <input type="submit" id="submitBtn" value="Subscribe" />
               </form>
             </div>
           </div>
 
           <div class="info">
-            <p>Made by Sofiia Teplova. Kyiv, Ukraine, 2019. &copy; All rights reserved</p>
+            <p>
+              Made by Sofiia Teplova. Kyiv, Ukraine, 2019. &copy; All rights
+              reserved
+            </p>
           </div>
         </footer>
 
         <!-- TO TOP BUTTON -->
-
         <a class="toTop" href="#home">home</a>
-
-      </div> <!-- pageContent -->
-    </div> <!-- wrapper -->
-
+      </div>
+    </div>
 
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -272,9 +470,9 @@
     <script src="js/lightbox.js"></script>
     <script>
       lightbox.option({
-        'alwaysShowNavOnTouchDevices': true,
-        'wrapAround': true
-      })
+        alwaysShowNavOnTouchDevices: true,
+        wrapAround: true,
+      });
     </script>
   </body>
 </html>
